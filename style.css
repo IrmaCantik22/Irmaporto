@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    color: springgreen;
+    margin: 5 pt;
+    padding: 5 pt;
+}
+
+header {
+    background: springgreen;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.portfolio-item {
+    background: black;
+    border: 1px solid #ddd;
+    margin: 15px 0;
+    padding: 15px;
+    transition: transform 0.3s;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background: springgreen;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+img {
+    border: 2px springgreen;
+    border-radius: 20px;
+}
